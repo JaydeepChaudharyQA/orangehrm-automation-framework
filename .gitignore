@@ -1,10 +1,10 @@
-# Build output
-target/
+# Build output (leading "/" = project root only, so source packages with the same name are not ignored)
+/target/
 
 # Generated at run time
-reports/
-logs/
-test-output/
+/reports/
+/logs/
+/test-output/
 
 # IDE
 .idea/
