@@ -1,0 +1,9 @@
+[
+  { "menuItem": "Admin",       "expectedTitle": "Admin" },
+  { "menuItem": "PIM",         "expectedTitle": "PIM" },
+  { "menuItem": "Leave",       "expectedTitle": "Leave" },
+  { "menuItem": "Recruitment", "expectedTitle": "Recruitment" },
+  { "menuItem": "My Info",     "expectedTitle": "PIM" },
+  { "menuItem": "Directory",   "expectedTitle": "Directory" },
+  { "menuItem": "Claim",       "expectedTitle": "Claim" }
+]

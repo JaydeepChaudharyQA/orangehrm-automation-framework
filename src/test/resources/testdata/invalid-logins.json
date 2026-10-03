@@ -1,0 +1,6 @@
+[
+  { "description": "Wrong password",          "username": "Admin",          "password": "wrongPass123", "expectedError": "Invalid credentials" },
+  { "description": "Unknown username",        "username": "unknown.user.qa", "password": "admin123",     "expectedError": "Invalid credentials" },
+  { "description": "Empty username",          "username": "",               "password": "admin123",     "expectedError": "Required" },
+  { "description": "Empty password",          "username": "Admin",          "password": "",             "expectedError": "Required" }
+]
