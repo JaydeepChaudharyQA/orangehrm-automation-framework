@@ -69,6 +69,8 @@ cd orangehrm-automation-framework
 ./mvnw test -Dtest=LoginTests
 ```
 
+> **Windows tip:** if `git clone` fails with *Filename too long*, run `git config --global core.longpaths true` once and clone again.
+
 Any setting in `config.properties` can be overridden with `-Dkey=value` or an environment variable (for example `BROWSER=edge`).
 
 ## Reports
